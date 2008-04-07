@@ -1,0 +1,74 @@
+Functional Spec for a Classificiation Proposal of CPAN Modules:
+---------------------------------------------------------------
+
+This is a functional spec that describes a proposal for classificiation
+of Perl distributions on CPAN. It describes a way to assign:
+
+1. Freshmeat.net-like Trove categories. (Several of them).
+
+2. Del.icio.us-like Tags/Labels. (Many; almost unlimited)
+
+These can be assigned both by the authors and users of the modules. Tags which 
+the users assigned are distinguished from author tags, and normally take
+precedence the more the certain tag was filled.
+
+Phase 1: The Birth of an Editor:
+--------------------------------
+
+Richard M. Stallman (RMS) decides to release the his 
+brand-new editor, "Emacs" on the CPAN with its first version 29.999.99.
+In order to package it he invokes the trusty ol' module-starter which
+creates a skeleton.
+
+He fills in the skeleton, types "perl Build.PL", "./Build" and makes sure
+all the tests pass. Then he types "./Build config --gui" and gets a nice
+GUI to configure the various parameters of the Module meta-data.[M-B-Data]
+
+In the GUI Richard goes to the Trove categorization tab, and select categories 
+like in Freshmeat's project categorisation dialog (a list of options to the 
+left, with selected options to the right and arrows to move them left or 
+right, along with a multiple select option.). He choose such categories as
+"Programming Language :: Lisp", and "Intended Audience :: Emacs Users",
+"Operating System :: GNU", and "Topic :: Editors". (Note: I believe the
+category list should be fetched using a public web-service to keep them
+up-to-date.) 
+
+Then he goes to the tags section. There he enters tags/labels to label
+the editor. He can select more tags in the tag cloud, and re-use tags
+of other CPAN modules or that he previously entered.
+
+Eventually, he exits the configuration GUI. The program saves the settings,
+and runs ./Build.PL again. He then run ./Build disttest, ./Build dist and
+uploads the project to the CPAN.
+
+{Footnotes:
+
+[M-B-Data] - since editing the Build.PL file directly is error-prone, I 
+suggest that Module::Build will be modified or extended to read the relevant and other 
+parameters from a YAML file specified and stored in the distribution. This is 
+the file that the GUI will edit.
+
+}
+
+Phase 2: Second Birth of an editor:
+-----------------------------------
+
+After several weeks of having the editor on CPAN, Richard has received many
+patches, and wrote a lot of code on his own. Now Emacs is not only an editor
+but a calendar tool, an Eliza program, a web browser, a mail user agent
+and many other things.
+
+So he needs to update the categorisation. He runs ./Build config --gui
+again, and adds more categories. However, he enters too many categories 
+(because Emacs does them all), and the GUI refuses to save the file because
+it will overflow the limit that the web-service told it it will allow
+to handle. So Richard keeps only the important categories, adds more tags,
+and saves it.
+
+He then again tests the distribution, and uploads the new distribution to the
+CPAN.
+
+Phase 3: The 3rd-Party Developer
+--------------------------------
+
+
