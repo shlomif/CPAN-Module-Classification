@@ -58,12 +58,12 @@ patches, and wrote a lot of code on his own. Now Emacs is not only an editor
 but a calendar tool, an Eliza program, a web browser, a mail user agent
 and many other things.
 
-So he needs to update the categorisation. He runs ./Build config --gui
-again, and adds more categories. However, he enters too many categories 
-(because Emacs does them all), and the GUI refuses to save the file because
-it will overflow the limit that the web-service told it it will allow
-to handle. So Richard keeps only the important categories, adds more tags,
-and saves it.
+So in order to release versio 30.000.00 he needs to update the categorisation. 
+He runs ./Build config --gui again, and adds more categories. However, he 
+enters too many categories (because Emacs does them all), and the GUI refuses 
+to save the file because it will overflow the limit that the web-service told 
+it it will allow to handle. So Richard keeps only the important categories, 
+adds more tags, and saves it.
 
 He then again tests the distribution, and uploads the new distribution to the
 CPAN.
@@ -71,4 +71,30 @@ CPAN.
 Phase 3: The 3rd-Party Developer
 --------------------------------
 
+Bill Gates, CEO of Microsoft decides to use Richard Stallman's Emacs as the
+basis of his state-of-the-art product Microsoft Editing Macros™ Enterprise 
+Edition XP .NET Professional. However since MS Editing Macros™ is commercial,
+proprietary software which he intends to sell at computer stores, he's not
+going to upload it to the CPAN. He builds upon with Emacs, sends patches to 
+Richard and learns a lot about it.
 
+When he's finished building Microsoft Editing Macros™ he surfs to the
+Emacs homepage on CPAN, and adds some categories and tags of his own.
+
+Eventually, enough people like Bill tag and categorise Emacs, and it gains
+more classification.
+
+Phase 4: Enhancing the CPAN Experience
+--------------------------------------
+
+kobesearch.cpan.org looks at the tags and categories that people tagged and 
+categorised and takes them into account. It presents a tag cloud like:
+
+http://cpanforum.com/tags/
+
+And has a browse-by-category feature like:
+
+http://freshmeat.net/browse/18/
+
+It also takes them into account in the searches, and displays them in the
+distributions' homepage.
