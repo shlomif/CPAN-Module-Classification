@@ -1,7 +1,7 @@
-Functional Spec for a Classificiation Proposal of CPAN Modules:
+Functional Spec for a Classification Proposal of CPAN Modules:
 ---------------------------------------------------------------
 
-This is a functional spec that describes a proposal for classificiation
+This is a functional spec that describes a proposal for classification
 of Perl distributions on CPAN. It describes a way to assign:
 
 1. Freshmeat.net-like Trove categories. (Several of them).
@@ -24,7 +24,7 @@ He fills in the skeleton, types "perl Build.PL", "./Build" and makes sure
 all the tests pass. Then he types "./Build config --gui" and gets a nice
 GUI to configure the various parameters of the Module meta-data.[M-B-Data]
 
-In the GUI Richard goes to the Trove categorization tab, and select categories 
+In the GUI Richard goes to the Trove categorisation tab, and select categories 
 like in Freshmeat's project categorisation dialog (a list of options to the 
 left, with selected options to the right and arrows to move them left or 
 right, along with a multiple select option.). He choose such categories as
@@ -58,7 +58,7 @@ patches, and wrote a lot of code on his own. Now Emacs is not only an editor
 but a calendar tool, an Eliza program, a web browser, a mail user agent
 and many other things.
 
-So in order to release versio 30.000.00 he needs to update the categorisation. 
+So in order to release version 30.000.00 he needs to update the categorisation. 
 He runs ./Build config --gui again, and adds more categories. However, he 
 enters too many categories (because Emacs does them all), and the GUI refuses 
 to save the file because it will overflow the limit that the web-service told 
