@@ -76,3 +76,16 @@ Pattern: Rating:
 
 - http://freshmeat.net/browse/156/ (ordered by rating.)
 
+Pattern: Tags/Labels:
+=====================
+
+- http://del.icio.us/
+
+- 
+
+Pattern: Popularity:
+====================
+
+- number of link clicks, project record clicks, etc.
+
+
