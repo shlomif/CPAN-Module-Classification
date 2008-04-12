@@ -1,0 +1,42 @@
+Pattern: Recommendations/Related Items:
+=======================================
+
+Examples for this:
+
+* In Amazon.com:
+- http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0385267746
+
+"Customers who bought this book also bought".
+
+* In Freshmeat.net:
+- http://freshmeat.net/projects/perl/
+
+"Users who subscribed to this project also subscribed to:"
+"Projects depending on this project"
+"Other projects from the same categories"
+
+Pattern: Search Bar:
+====================
+
+* when most people look for information, they just use the search:  
+    - using the front page (Search is available everywhere).
+    - using a browser search bar.
+    - using a shortcut on the desktop/browser.
+
+* People believe they can type what they want (and get there)
+faster than a guide or web-directory or whatever can yield them.
+
+Pattern: related sites:
+=======================
+
+* When searching for something in Google one can also go to an image search,
+etc.
+
+- http://www.google.com/search?q=firefox&ie=UTF-8&oe=UTF-8
+  <->
+- http://images.google.com/images?q=firefox&ie=UTF-8&oe=UTF-8&um=1&sa=N&tab=wi
+
+* Perhaps it would be a good idea to cross link the search for
+perldoc.perl.org, kobesearch.cpan.org, perl.com, perlmonks.org etc.
+
+
