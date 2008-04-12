@@ -39,4 +39,40 @@ etc.
 * Perhaps it would be a good idea to cross link the search for
 perldoc.perl.org, kobesearch.cpan.org, perl.com, perlmonks.org etc.
 
+Pattern: minimalistic homepage:
+===============================
+
+- http://www.google.com/webhp?hl=en
+
+- http://search.cpan.org/
+
+Pattern: news feed:
+===================
+
+- http://freshmeat.net/
+
+- http://search.cpan.org/recent (probably not as good as freshmeat's).
+
+Pattern: comments:
+==================
+
+- http://www.youtube.com/watch?v=4iiNQIegxkY&NR=1
+
+- http://freshmeat.net/projects/perl/
+
+    Sub-Pattern: reviews:
+    =====================
+    
+    - On Amazon
+
+    - On cpan.org.
+
+    - On Freshmeat.
+
+Pattern: Rating:
+================
+
+- http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0385267746
+
+- http://freshmeat.net/browse/156/ (ordered by rating.)
 
