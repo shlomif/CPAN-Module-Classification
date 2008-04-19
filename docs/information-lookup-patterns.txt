@@ -83,8 +83,8 @@ Pattern: Tags/Labels:
 
 - 
 
-Pattern: Popularity:
-====================
+Pattern: Popularity Indication:
+===============================
 
 - number of link clicks, project record clicks, etc.
 
