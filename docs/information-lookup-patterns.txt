@@ -69,6 +69,20 @@ Pattern: comments:
 
     - On Freshmeat.
 
+    Sub-Pattern: comments on comments:
+    ==================================
+
+    - Slashdot-like.
+
+    Sub-Pattern: comment ratings:
+    =============================
+
+    - Slashdot, Reddit, Digg, etc.
+
+    - "Was this review helpful to you?"
+        - on Amazon
+        - on cpanratings.perl.org.
+
 Pattern: Rating:
 ================
 
@@ -88,4 +102,16 @@ Pattern: Popularity Indication:
 
 - number of link clicks, project record clicks, etc.
 
+Pattern: Directory:
+===================
 
+A hierarchical directory similar to the taxonomy of species.
+
+- http://freshmeat.net/browse/
+
+- http://www.dmoz.org/ (*Note:* this is not a parked domain - it's a
+web-directory.)
+
+People often find such hierarchical structure a bit limiting, and
+as a result there are often "cross-links" (like related categories), a
+search engine or an ability to put an end-entry under several categories.
