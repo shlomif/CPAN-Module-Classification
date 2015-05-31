@@ -8,49 +8,49 @@ of Perl distributions on CPAN. It describes a way to assign:
 
 2. Del.icio.us-like Tags/Labels. (Many; almost unlimited)
 
-These can be assigned both by the authors and users of the modules. Tags which 
+These can be assigned both by the authors and users of the modules. Tags which
 the users assigned are distinguished from author tags, and normally gain
 strength if more users assigned a certain tag to a certain module.
 
 Phase 1: The Birth of an Editor:
 --------------------------------
 
-Richard M. Stallman (RMS) decides to release his 
+Richard M. Stallman (RMS) decides to release his
 brand-new editor, "Emacs" on the CPAN with its first version 29.999.99.
-In order to package it, he invokes the trusty ol' module-starter 
+In order to package it, he invokes the trusty ol' module-starter
 (see http://search.cpan.org/dist/Module-Starter/ ) which
 creates a skeleton of a CPAN distribution for him.
 
-He fills in the skeleton with the actual code of Emacs, types 
-"perl Build.PL", and "./Build test" and makes sure all the tests pass. Then he 
-types "./Build config --gui" and gets a nice GUI to configure the various 
+He fills in the skeleton with the actual code of Emacs, types
+"perl Build.PL", and "./Build test" and makes sure all the tests pass. Then he
+types "./Build config --gui" and gets a nice GUI to configure the various
 parameters of the Module meta-data.[M-B-Data]
 
-In the GUI, Richard goes to the Trove categorisation tab, and selects 
-categories. This is done in a similar way to Freshmeat's project 
-categorisation dialog (a list of options to the left, with selected options 
+In the GUI, Richard goes to the Trove categorisation tab, and selects
+categories. This is done in a similar way to Freshmeat's project
+categorisation dialog (a list of options to the left, with selected options
 to the right and arrows to move them left or right, while allowing multiple
-select options.). He choose such categories as "Programming Language :: Lisp", 
-and "Intended Audience :: Emacs Users", "Operating System :: GNU", and 
+select options.). He choose such categories as "Programming Language :: Lisp",
+and "Intended Audience :: Emacs Users", "Operating System :: GNU", and
 "Topic :: Editors". (Note: I believe the
 
 category list should be fetched using a public web-service to keep them
-up-to-date.) 
+up-to-date.)
 
 Then he goes to the tags section. There he enters tags/labels to label
 the editor. He can select more tags in the tag cloud, and re-use tags
 of other CPAN modules or that he previously entered.
 
 Eventually, he exits the configuration GUI while instructing it to
-save all changes. The program saves the settings, and runs ./Build.PL again. 
-He then run ./Build disttest, ./Build dist and uploads the project to the 
+save all changes. The program saves the settings, and runs ./Build.PL again.
+He then run ./Build disttest, ./Build dist and uploads the project to the
 CPAN.[Force-to-Classify]
 
 {Footnotes:
 
-[M-B-Data] - since editing the Build.PL file directly is error-prone, I 
-suggest that Module::Build will be modified or extended to read the relevant and other 
-parameters from a YAML file specified and stored in the distribution. This is 
+[M-B-Data] - since editing the Build.PL file directly is error-prone, I
+suggest that Module::Build will be modified or extended to read the relevant and other
+parameters from a YAML file specified and stored in the distribution. This is
 the file that the GUI will edit.
 
 [Force-to-Classify] - it is possible we want Module-Starter to force the user
@@ -68,9 +68,9 @@ and many other things.
 
 So in order to release version 30.000.00 he needs to update the categorisation.
 He runs ./Build config --gui again, and adds more categories. However, he
-enters too many categories (because Emacs now does them all), and the GUI 
-refuses  to save the file because it will overflow the limit that the 
-web-service specified the CPAN classification services allow to handle. So 
+enters too many categories (because Emacs now does them all), and the GUI
+refuses  to save the file because it will overflow the limit that the
+web-service specified the CPAN classification services allow to handle. So
 Richard keeps only the important categories, adds more tags, and saves it.
 
 He then tests the distribution again, and uploads the new distribution to the
@@ -80,10 +80,10 @@ Phase 3: The 3rd-Party Developer
 --------------------------------
 
 Bill Gates, CEO of Microsoft decides to use Richard Stallman's Emacs as the
-basis of his company's state-of-the-art product Microsoft Editing Macros™ 
-Enterprise Edition XP .NET Professional. However since MS Editing Macros™ is 
-a commercial, proprietary program which he intends to sell at computer stores, 
-Bill is not going to upload it to the CPAN. He builds upon Emacs, sends 
+basis of his company's state-of-the-art product Microsoft Editing Macros™
+Enterprise Edition XP .NET Professional. However since MS Editing Macros™ is
+a commercial, proprietary program which he intends to sell at computer stores,
+Bill is not going to upload it to the CPAN. He builds upon Emacs, sends
 patches to  Richard and learns a lot about it.
 
 When he's finished building Microsoft Editing Macros™ he surfs to the
@@ -95,7 +95,7 @@ more classification.
 Phase 4: Enhancing the CPAN Experience
 --------------------------------------
 
-kobesearch.cpan.org looks at the tags and categories that people tagged and 
+kobesearch.cpan.org looks at the tags and categories that people tagged and
 categorised and takes them into account. It presents a tag cloud like:
 
 http://cpanforum.com/tags/
