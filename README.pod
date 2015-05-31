@@ -1,0 +1,16 @@
+=encoding utf8
+
+=head1 CPAN Module Classification Proposal
+
+This is a proposal for classification of CPAN modules done as part of
+the "Rethinking CPAN" initiative.
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2013 by Shlomi Fish.
+
+This is free software, licensed under:
+
+  The MIT (X11) License
+
+=cut
