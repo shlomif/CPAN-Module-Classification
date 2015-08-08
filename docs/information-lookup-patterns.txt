@@ -18,7 +18,7 @@ Examples for this:
 Pattern: Search Bar:
 ====================
 
-* when most people look for information, they just use the search:  
+* when most people look for information, they just use the search:
     - using the front page (Search is available everywhere).
     - using a browser search bar.
     - using a shortcut on the desktop/browser.
@@ -62,7 +62,7 @@ Pattern: comments:
 
     Sub-Pattern: reviews:
     =====================
-    
+
     - On Amazon
 
     - On cpan.org.
@@ -95,7 +95,7 @@ Pattern: Tags/Labels:
 
 - http://del.icio.us/
 
-- 
+-
 
 Pattern: Popularity Indication:
 ===============================
